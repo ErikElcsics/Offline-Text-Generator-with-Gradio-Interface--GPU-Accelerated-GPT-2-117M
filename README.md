@@ -28,7 +28,7 @@ To run this app locally, follow these installation steps:
 
 1. Clone the repository:
    
-   git clone https://github.com/yourusername/Offline-Text-Generator.git
+   git clone https://github.com/ErikElcsics/Offline-Text-Generator-with-Gradio-Interface--GPU-Accelerated-GPT-2-117M.git
    cd Offline-Text-Generator
    
 
@@ -47,8 +47,16 @@ To run this app locally, follow these installation steps:
 
 3. Run the app:
    
-   python app.py
-   
+   python OfflineTextGeneratorGradio.py
+
+Screen will show below and give you the url to launch your web app:
+🚀 Using device: CUDA
+🧠 Loading model...
+* Running on local URL:  http://127.0.0.1:7860
+
+Example:
+
+![image](https://github.com/user-attachments/assets/85e1b7a3-a5dc-4166-897c-03348e8d5bc2)   
 
 This will start the Gradio interface and allow you to interact with the text generation model.
 
@@ -56,7 +64,7 @@ This will start the Gradio interface and allow you to interact with the text gen
 
 1. **Start the App**: After following the installation instructions, run the app by executing:
    
-   python app.py
+   python OfflineTextGeneratorGradio.py
    
 2. **Interact with the Model**: 
    - Open the app in your browser, where you'll be greeted with an interface that allows you to input a text prompt.
