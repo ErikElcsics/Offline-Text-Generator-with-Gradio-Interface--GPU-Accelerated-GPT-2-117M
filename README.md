@@ -1,0 +1,2 @@
+# Offline-Text-Generator-with-Gradio-Interface--GPU-Accelerated-GPT-2-117M
+This repository contains a simple app that uses **GPT-2** for text generation. It leverages **Gradio** for the user interface and optimizes inference with **GPU acceleration**. The app can generate creative and contextually relevant text based on the provided prompt. The model runs offline, making it highly efficient for local use.
